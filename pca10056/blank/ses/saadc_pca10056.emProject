@@ -46,12 +46,6 @@
       c_user_include_directories=".;components/softdevice/s140/headers;components/ble/common;components/ble/nrf_ble_gatt;components/ble/ble_advertising;components/libraries/log;components/libraries/delay;components/drivers_nrf/saadc;components/nrfx;components/nrfx/drivers/include;C:\\nrf\\components\\ble"
       linker_additional_options_from_file="" />
     <folder Name="Application">
-      <file file_name="../../../main.c">
-        <configuration
-          Name="Debug"
-          c_preprocessor_undefinitions_c_only=""
-          c_user_include_directories="C:\\nrf\\components\\softdevice\\common" />
-      </file>
       <file file_name="../config/sdk_config.h" />
     </folder>
     <folder Name="Board Definition">
